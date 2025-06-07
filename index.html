@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio Website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+
+<body>
+    <nav class="navbar">
+        <h1 class="logo"><span>Nenye-dev</span></h1>
+        <div id="menuIcon" class="menu-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="30" height="30" viewBox="0 0 30 30">
+                <path
+                    d="M 3 7 A 1.0001 1.0001 0 1 0 3 9 L 27 9 A 1.0001 1.0001 0 1 0 27 7 L 3 7 z M 3 14 A 1.0001 1.0001 0 1 0 3 16 L 27 16 A 1.0001 1.0001 0 1 0 27 14 L 3 14 z M 3 21 A 1.0001 1.0001 0 1 0 3 23 L 27 23 A 1.0001 1.0001 0 1 0 27 21 L 3 21 z">
+                </path>
+            </svg>
+        </div>
+        <ul id="navLinks" class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About me</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contacts</a></li>
+        </ul>
+    </nav>
+
+
+    <section id="home" class="hero-section">
+        <div class="image"><img src="./Images/profile-image.jpg" alt="My-picture">
+        </div>
+        <div class="hero-text">
+            <h3>Hello, I'm</h3>
+            <h1>Chinenye Joy</h1>
+            <h3>And I'm a <span>Web Developer</span></h3>
+            <p>A passionate Frontend Developer crafting clean, responsive, and engaging digital experiences for the web.
+            </p>
+            <div class="social-links">
+                <a href="https://github.com/chinenye-joy" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/chinenye-joy-anyim/" target="_blank"><i
+                        class="fab fa-linkedin"></i></a>
+                <a href="https://x.com/ChinenyeJoy_" target="_blank"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.facebook.com/chinenye.joy.52459" target="_blank"><i
+                        class="fab fa-facebook"></i></a>
+            </div>
+        </div>
+    </section>
+    
+    <section id="about" class="about" data-aos="fade-up" data-aos-offset="150" data-aos-duration="1000"
+        data-aos-once="true">
+        <h2>About Me</h2>
+        <p>
+            I'm a passionate Frontend Developer with a solid foundation in building responsive and user-friendly
+            websites.
+            I enjoy transforming designs into interactive digital experiences using clean and efficient code.
+        </p>
+        <p>
+            I'm currently focused on sharpening my JavaScript skills and exploring modern frontend tools to grow as a
+            developer and contribute to real-world projects.
+        </p>
+
+        <h3>Technical Skills</h3>
+        <ul class="skills">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>Git</li>
+            <li>GitHub</li>
+        </ul>
+
+        <h3>Soft Skills</h3>
+        <ul class="skills">
+            <li>Problem Solving</li>
+            <li>Communication</li>
+            <li>Time Management</li>
+            <li>Collaboration</li>
+            <li>Adaptability</li>
+        </ul>
+    </section>
+
+    <section id="projects" class="projects" data-aos="fade-up" data-aos-offset="150" data-aos-duration="1000"
+        data-aos-once="true">
+        <h2>Projects</h2>
+        <div class="projects-container">
+            <div class="project-card">
+                <img src="./Images/Screenshot (431).png" alt="Multi-Form System Screenshot">
+                <h3>Event Booking System</h3>
+                <p>A multi-step form with validation for a smooth user experience, built with HTML, CSS, and JavaScript.
+                </p>
+                <a href="https://chinenye-joy.github.io/Event-Booking-System/">Live Demo</a> | <a
+                    href="https://github.com/chinenye-joy">GitHub</a>
+            </div>
+
+            <div class="project-card">
+                <img src="./Images/Screenshot (430).png" alt="Drag-and-Drop Task Management Screenshot">
+                <h3>Drag-and-Drop Task Management</h3>
+                <p>A task board where users can drag and drop tasks between columns like To-Do, In Progress, and Done.
+                </p>
+                <a href="https://chinenye-joy.github.io/Task-Management-WorkFlow/">Live Demo</a> | <a
+                    href="https://github.com/chinenye-joy">GitHub</a>
+            </div>
+
+            <div class="project-card">
+                <img src="./Images/Screenshot (433).png" alt="Basic Calculator Screenshot">
+                <h3>Basic Calculator</h3>
+                <p>A responsive calculator to perform basic arithmetic operations using JavaScript logic and UI styling.
+                </p>
+                <a href="https://chinenye-joy.github.io/New-folder--Calculator-Practice-/">Live Demo</a> | <a
+                    href="https://github.com/chinenye-joy">GitHub</a>
+            </div>
+
+            <div class="project-card">
+                <img src="./Images/Screenshot (432).png" alt="Pricing Table Screenshot">
+                <h3>Web Developer Pricing Table</h3>
+                <p>A clean and modern pricing table for freelance web development services, styled with CSS.</p>
+                <a href="https://chinenye-joy.github.io/FrontEnd-Course-Pricing-Table/">Live Demo</a> | <a
+                    href="https://github.com/chinenye-joy">GitHub</a>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="contact" class="contact" data-aos="fade-up" data-aos-offset="150" data-aos-duration="1000"
+        data-aos-once="true">
+        <h2>Contact Me</h2>
+        <form action="https://formspree.io/f/xdkzajoe" method="POST" class="contact-form">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" rows="8" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <div class="social-links">
+                <a href="https://github.com/your-github-username" target="_blank">GitHub</a>
+                <a href="https://www.linkedin.com/in/chinenye-joy-anyim" target="_blank">LinkedIn</a>
+                <a href="https://www.facebook.com/chinenye.joy.52459" target="_blank">Facebook</a>
+                <a href="https://x.com/ChinenyeJoy_" target="_blank">Twitter</a>
+            </div>
+            <p>&copy; 2025 Chinenye Joy. All rights reserved.</p>
+        </div>
+    </footer>
+
+
+
+    <script src="script.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>
