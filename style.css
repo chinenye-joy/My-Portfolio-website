@@ -264,10 +264,11 @@ ul li a:hover::after {
 }
 
 .project-card a {
+  font-size: 17px;
   color: #6366f1;
   font-weight: 600;
   text-decoration: none;
-  margin-right: 15px;
+  margin-right: 2px;
 }
 
 .project-card a:hover {
