@@ -493,11 +493,11 @@ footer {
 @media (max-width: 600px) {
   .hero-text h1 {
     font-size: 28px;
-    margin-top: 30px;
+    margin-top: 12px
   }
   .hero-text h3 {
     font-size: 26px;
-    margin-top: 0;
+    margin-top: 8px;
     text-align: center;
   }
   .hero-text p {
@@ -590,12 +590,12 @@ footer {
 @media (max-width: 400px) {
   .hero-text h1 {
     font-size: 28px;
-    margin-top: 30px;
+    margin-top: 10px;
   }
   .hero-text h3 {
     font-size: 26px;
-    margin-top: 0;
     text-align: center;
+    margin-top: 6px;
   }
   .hero-text p {
     font-size: 16px;
