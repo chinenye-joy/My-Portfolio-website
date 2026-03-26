@@ -1,16 +1,16 @@
 const menuIcon = document.getElementById("menuIcon");
 const navLinks = document.getElementById("navLinks");
 
-// menuIcon.addEventListener("click", () => {
-//   if (navLinks.style.display === "none" || navLinks.style.display === "") {
-//     navLinks.style.display = "block";
-//   } else {
-//     navLinks.style.display = "none";
-//   }
-// });
+// Hamburger toggle
+document.getElementById("menuIcon").addEventListener("click", function () {
+  document.getElementById("navLinks").classList.toggle("open");
+});
 
-document.getElementById('menuIcon').addEventListener('click', function () {
-  document.getElementById('navLinks').classList.toggle('open');
+// Close menu when any nav link is clicked
+document.querySelectorAll("#navLinks a").forEach(function (link) {
+  link.addEventListener("click", function () {
+    document.getElementById("navLinks").classList.remove("open");
+  });
 });
 const cards = document.querySelectorAll(".project-card");
 
