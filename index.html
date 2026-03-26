@@ -36,7 +36,7 @@
                 <li><a href="#home">Home</a></li>
                 <li><a href="#about">About me</a></li>
                 <li><a href="#projects">Projects</a></li>
-                  <li><a href="#testimonials">Testimonials</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
                 <li><a href="#contact">Contacts</a></li>
 
             </ul>
@@ -85,6 +85,7 @@
             <li>CSS</li>
             <li>JavaScript</li>
             <li>ReactJs</li>
+            <li>NextJs</li>
             <li>Tailwind CSS</li>
             <li>Git</li>
             <li>GitHub</li>
@@ -183,35 +184,39 @@
 
 
     <section class="testi-section" id="testimonials">
-  <div class="testi-inner">
-    <p class="testi-label">Testimonials</p>
-    <h2 class="testi-heading">What people are saying</h2>
+        <div class="testi-inner">
+            <p class="testi-label">Testimonials</p>
+            <h2 class="testi-heading">What people are saying</h2>
 
-    <div class="testi-card" id="testiCard">
-      <p class="testi-quote" id="testiQuote"></p>
-      <div class="testi-author">
-        <div class="testi-avatar" id="testiAvatar"></div>
-        <div>
-          <p class="testi-name" id="testiName"></p>
-          <p class="testi-role" id="testiRole"></p>
+            <div class="testi-card" id="testiCard">
+                <p class="testi-quote" id="testiQuote"></p>
+                <div class="testi-author">
+                    <div class="testi-avatar" id="testiAvatar"></div>
+                    <div>
+                        <p class="testi-name" id="testiName"></p>
+                        <p class="testi-role" id="testiRole"></p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="testi-controls">
+                <div class="testi-dots" id="testiDots"></div>
+                <div class="testi-arrows">
+                    <button class="testi-arrow" id="prevBtn" aria-label="Previous">
+                        <svg viewBox="0 0 24 24">
+                            <polyline points="15 18 9 12 15 6" />
+                        </svg>
+                    </button>
+                    <button class="testi-arrow" id="nextBtn" aria-label="Next">
+                        <svg viewBox="0 0 24 24">
+                            <polyline points="9 6 15 12 9 18" />
+                        </svg>
+                    </button>
+                </div>
+            </div>
+
         </div>
-      </div>
-    </div>
-
-    <div class="testi-controls">
-      <div class="testi-dots" id="testiDots"></div>
-      <div class="testi-arrows">
-        <button class="testi-arrow" id="prevBtn" aria-label="Previous">
-          <svg viewBox="0 0 24 24"><polyline points="15 18 9 12 15 6"/></svg>
-        </button>
-        <button class="testi-arrow" id="nextBtn" aria-label="Next">
-          <svg viewBox="0 0 24 24"><polyline points="9 6 15 12 9 18"/></svg>
-        </button>
-      </div>
-    </div>
-
-  </div>
-</section>
+    </section>
 
 
     <section id="contact" class="contact" data-aos="fade-up" data-aos-offset="150" data-aos-duration="1000"
