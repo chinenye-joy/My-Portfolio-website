@@ -47,18 +47,18 @@ const testimonials = [
     quote: `I was really impressed with the portfolio website Chinenye Joy built for me! She got the design so well and it perfectly captures my brand vibe. Plus, it's super easy to navigate and showcases my projects in a really cool way. Joy was great to work with, she listened to my needs, communicated clearly, and delivered in time. I would definitely recommend her to anyone looking for a reliable and skilled frontend developer.`,
     name: "Kelechi Odili",
     role: "Product Designer.",
-    initials: "AO",
-    bg: "#eeedfe",
-    color: "#534ab7"
-  },
-  {
-    quote: `I was really impressed with the portfolio website Chinenye Joy built for me! She got the design so well and it perfectly captures my brand vibe. Plus, it's super easy to navigate and showcases my projects in a really cool way. Joy was great to work with, she listened to my needs, communicated clearly, and delivered in time. I would definitely recommend her to anyone looking for a reliable and skilled frontend developer.`,
-    name: "Kelechi Odili",
-    role: "Product Designer.",
     initials: "KO",
     bg: "#eeedfe",
     color: "#534ab7"
   },
+  // {
+  //   quote: `I was really impressed with the portfolio website Chinenye Joy built for me! She got the design so well and it perfectly captures my brand vibe. Plus, it's super easy to navigate and showcases my projects in a really cool way. Joy was great to work with, she listened to my needs, communicated clearly, and delivered in time. I would definitely recommend her to anyone looking for a reliable and skilled frontend developer.`,
+  //   name: "Kelechi Odili",
+  //   role: "Product Designer.",
+  //   initials: "KO",
+  //   bg: "#eeedfe",
+  //   color: "#534ab7"
+  // },
 ];
 
 let current = 0;

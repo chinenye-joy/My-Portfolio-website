@@ -321,11 +321,12 @@ body {
 }
 
 .card-img {
-  padding: 25px 16px;
+  /* padding: 25px 16px; */
 }
 
 .card-img img {
-  border: #6366f1 solid 3px;
+  /* border: #6366f1 solid 3px; */
+  width: 100%;
 }
 
 .card-body {
